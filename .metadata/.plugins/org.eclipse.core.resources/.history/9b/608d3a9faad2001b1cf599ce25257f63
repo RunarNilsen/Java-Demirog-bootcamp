@@ -10,7 +10,6 @@ public class ProductManager {
 	
 	public void addToCart(Product product) {
 		System.out.println("Sepete ekleme kodu simüle edildi!!!");
-		System.out.println("Sepete ekleme kodu simüle edildi!!!");
 		System.out.println(product.name + " Fiyatı: " + product.unitPrice );
 		
 	}
