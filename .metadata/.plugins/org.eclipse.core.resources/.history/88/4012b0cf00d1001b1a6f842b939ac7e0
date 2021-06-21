@@ -1,0 +1,17 @@
+package oopIntro;
+
+public class Product {
+	
+	// constructor (yapıcı) yani bu class tan bir nesne oluşturuldugu an gerçekleşmesini istediğimiz şeyleri buraya yazarız.
+	public Product() {
+		System.out.println("Buradayım....");
+		
+	}
+	
+	int id;
+	String name;
+	double unitPrice;
+	String detail;
+	
+
+}

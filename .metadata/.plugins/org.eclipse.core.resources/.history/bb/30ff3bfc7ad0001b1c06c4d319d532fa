@@ -1,0 +1,23 @@
+package oopIntro;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		// Bir class oluşturduysan ondan önce new ile nesne oluşturmalısın ki class a ait özellikleri kullanabilesin.
+		Product product1 = new Product(); // örnek oluşturma, referans oluşturma, instance creation
+		product1.id = 1;
+		product1.name = "Lenova 14";
+		product1.unitPrice=15000;
+		product1.detail = "16 GB RAM";
+		
+		Product[] products = {product1};
+		
+		System.out.println(products.length);
+		System.out.println(products[0]);
+		
+
+	}
+
+}
